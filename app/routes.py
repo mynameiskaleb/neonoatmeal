@@ -9,6 +9,7 @@ def index():
 
 @app.route('/home')
 def home():
+    # placeholder
     return render_template('home.html')
 
 @app.route('/login')
